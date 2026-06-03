@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 
 
     <!-- 1. 2 input 
@@ -49,17 +50,27 @@
 </head>
 <body>
 
-        Value 1: <input type="number" id="f1"/> <br>
+       
+        <div>
+             Value 1: <input type="number" id="f1"/>
         Value 2: <input type="number" id="f2"/> <br>
-        Result: <input type="number" id="result"/>
 
-        <!-- <button onclick="cal ()">Calculate</button> -->
+         <div class="but">
+        <button class="add" onclick="add ()">+</button>
+        <button class="adding" onclick="sub ()">-</button>
+        <button class="added" onclick="mul ()">*</button>
+        <button class="ads" onclick="div ()">/</button>
+        </div>
 
-        <button onclick="add ()">+</button>
-        <button onclick="sub ()">-</button>
-        <button onclick="mul ()">*</button>
-        <button onclick="div ()">/</button>
-    
+       <div class="shuku">
+         Result: <input class="number" type="number" id="result"/>
+       </div>
+       
+        </div>
+
+
+
+       
     
 
     

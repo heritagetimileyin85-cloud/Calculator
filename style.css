@@ -1,0 +1,44 @@
+.shuku{
+    background-color: green;
+    color: white;
+    margin-top: 10px;
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left:10px ;
+
+}
+
+.but{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.add{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.adding{
+    background-color: rgb(250, 17, 250);
+    color: white;
+    border: none;
+}
+
+.added{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+
+.ads{
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.number{
+    margin-top: 10px;
+}
