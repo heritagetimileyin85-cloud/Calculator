@@ -13,19 +13,35 @@
 <body>
 
      <script>
-        // var userName = "";
-        // // alert("Hello" + userName);
-        //  function greeter()
-        // {
-        //     let uName= un.value;
-        //     alert("Good Morning " +uName)
-        // }
-           function cal()
+
+           function sub()
         {
             let value1 = f1.value;
             let value2 = f2.value;
             let r = value1-value2;
             result.value = r;
+        }
+
+         function mul()
+        {
+                let value1 = f1.value;
+                let value2 = f2.value;
+                let r = value1*value2;
+                result.value=r;
+        }
+
+        function add(){
+            let value1 = Number (f1.value);
+                let value2 = f2.value;
+                let r = value1*value2;
+                result.value=r;
+        }
+
+        function div(){
+                let value1 = f1.value;
+                let value2 = f2.value;
+                let r = value1/value2;
+                result.value=r;
         }
     </script>
 
@@ -33,14 +49,16 @@
 </head>
 <body>
 
-    <!-- Name: <input type="text" id="un">
-    <button onclick= "greeter()">Greet Me</button >
-        <br>
-        <br> -->
         Value 1: <input type="number" id="f1"/> <br>
         Value 2: <input type="number" id="f2"/> <br>
         Result: <input type="number" id="result"/>
-        <button onclick="cal ()">Calculate</button>
+
+        <!-- <button onclick="cal ()">Calculate</button> -->
+
+        <button onclick="add ()">+</button>
+        <button onclick="sub ()">-</button>
+        <button onclick="mul ()">*</button>
+        <button onclick="div ()">/</button>
     
     
 
